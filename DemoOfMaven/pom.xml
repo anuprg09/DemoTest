@@ -49,5 +49,5 @@
   		</plugin>
   	</plugins>
   </build>
-  <!-- This is POM file-->
+  <!-- This is POM file to config Maven-->
 </project>
