@@ -61,5 +61,13 @@
     </classes>
   </test> <!-- Command line test -->
   
+    <test name="MyLoginTestFirefox">
+    <classes>
+      <class name="itSutraGID.DemoOfMaven.EappLoginTest"/>
+      <parameter name="url" value="http://eaapp.somee.com"/>
+      <parameter name="browser" value="firefox"/>
+    </classes>
+  </test> <!-- Command line test -->
+  
   
 </suite> <!-- itSutraGID.DemoOfMaven.EappLoginTest -->
