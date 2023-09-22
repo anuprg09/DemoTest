@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyLoginSuite" parallel="tests" thread-count="10">
+  <test name="MyLoginTestInChrome">
+    <classes>
+      <class name="itSutraGID.DemoOfMaven.EappLoginTest"/>
+      <parameter name="url" value="http://eaapp.somee.com"/>
+      <parameter name="browser" value="chrome"/>
+    </classes>
+  </test> <!-- Command line test -->
+  
+  <test name="MyLoginTestInChrome1">
+    <classes>
+      <class name="itSutraGID.DemoOfMaven.EappLoginTest"/>
+      <parameter name="url" value="http://eaapp.somee.com"/>
+      <parameter name="browser" value="chrome"/>
+    </classes>
+  </test> <!-- Command line test -->
+  
+  
+  <test name="MyLoginTestInChrome2">
+    <classes>
+      <class name="itSutraGID.DemoOfMaven.EappLoginTest"/>
+      <parameter name="url" value="http://eaapp.somee.com"/>
+      <parameter name="browser" value="chrome"/>
+    </classes>
+  </test> <!-- Command line test -->
+  
+  
+  <test name="MyLoginTestInChrome3">
+    <classes>
+      <class name="itSutraGID.DemoOfMaven.EappLoginTest"/>
+      <parameter name="url" value="http://eaapp.somee.com"/>
+      <parameter name="browser" value="chrome"/>
+    </classes>
+  </test> <!-- Command line test -->
+  
+  <test name="MyLoginTestInChrome4">
+    <classes>
+      <class name="itSutraGID.DemoOfMaven.EappLoginTest"/>
+      <parameter name="url" value="http://eaapp.somee.com"/>
+      <parameter name="browser" value="chrome"/>
+    </classes>
+  </test> <!-- Command line test -->
+  
+  
+  <test name="MyLoginTestInChrome6">
+    <classes>
+      <class name="itSutraGID.DemoOfMaven.EappLoginTest"/>
+      <parameter name="url" value="http://eaapp.somee.com"/>
+      <parameter name="browser" value="chrome"/>
+    </classes>
+  </test> <!-- Command line test -->
+  
+  
+  <test name="MyLoginTestInChrome7">
+    <classes>
+      <class name="itSutraGID.DemoOfMaven.EappLoginTest"/>
+      <parameter name="url" value="http://eaapp.somee.com"/>
+      <parameter name="browser" value="chrome"/>
+    </classes>
+  </test> <!-- Command line test -->
+  
+  
+</suite> <!-- itSutraGID.DemoOfMaven.EappLoginTest -->
